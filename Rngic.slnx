@@ -1,3 +1,4 @@
 <Solution>
   <Project Path="Rngic.Core/Rngic.Core.csproj" />
+  <Project Path="Rngic.Demo/Rngic.Demo.csproj" />
 </Solution>
