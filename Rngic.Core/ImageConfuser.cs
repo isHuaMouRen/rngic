@@ -2,7 +2,7 @@
 
 namespace Rngic.Core
 {
-    public class Confuser
+    public class ImageConfuser
     {
         public Bitmap Bitmap { get; }
         public int Key { get; }
@@ -12,7 +12,7 @@ namespace Rngic.Core
 
         private int[] _targets;
 
-        public Confuser(Bitmap bitmap, int key)
+        public ImageConfuser(Bitmap bitmap, int key)
         {
             if (bitmap == null)
                 throw new ArgumentNullException(nameof(bitmap));
